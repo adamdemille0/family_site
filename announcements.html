@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Announcements &mdash; The DeMille Family</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header>
+    <h1>The DeMille Family</h1>
+    <p class="tagline">Together, wherever we are</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="calendar.html">Calendar</a>
+    <a href="announcements.html" class="active">Announcements</a>
+  </nav>
+
+  <main>
+
+    <h2 class="section-title">Family Announcements</h2>
+    <p class="ann-intro">Stay up to date with the latest news, milestones, and updates from across the family.</p>
+
+    <!-- How to post tip -->
+    <div class="tip-box">
+      <div class="tip-box-icon" aria-hidden="true">&#128161;</div>
+      <div>
+        <h3>Posting an Announcement</h3>
+        <p>
+          To add a new announcement, open <strong>announcements.html</strong> in any text editor,
+          copy one of the <code>&lt;article class="ann-card"&gt;</code> blocks below, paste it
+          at the top of the list, and fill in your news. Use <code>green-border</code> for
+          celebrations, <code>blue-border</code> for reminders, or no extra class for
+          general news.
+        </p>
+      </div>
+    </div>
+
+    <!-- Announcement cards – newest first -->
+    <div class="ann-cards">
+
+      <!-- 1 -->
+      <article class="ann-card">
+        <div class="ann-meta">
+          <span class="ann-tag">News</span>
+          <span class="ann-date">April 15, 2026</span>
+        </div>
+        <h3>Summer Reunion Planning Has Begun!</h3>
+        <p>
+          We&rsquo;re starting to plan our annual summer reunion. Tentative dates are
+          <strong>July 18&ndash;20</strong>. Start clearing your schedules &mdash; more
+          details on location, meals, and activities are coming soon. If you have ideas
+          or want to help plan, reach out to Mom!
+        </p>
+        <p class="ann-author">&mdash; Posted by Mom (Linda)</p>
+      </article>
+
+      <!-- 2 -->
+      <article class="ann-card green-border">
+        <div class="ann-meta">
+          <span class="ann-tag green">Celebration</span>
+          <span class="ann-date">March 28, 2026</span>
+        </div>
+        <h3>Welcome, Baby Oliver!</h3>
+        <p>
+          We are overjoyed to announce that <strong>Sarah &amp; James</strong> welcomed
+          their baby boy, <strong>Oliver James DeMille</strong>, on March 27th at 3:42 am.
+          He weighed 7 lbs 4 oz and both mom and baby are doing wonderfully. We couldn&rsquo;t
+          be more excited to welcome the newest member of the family!
+        </p>
+        <p class="ann-author">&mdash; Posted by Grandma Ruth</p>
+      </article>
+
+      <!-- 3 -->
+      <article class="ann-card">
+        <div class="ann-meta">
+          <span class="ann-tag">Update</span>
+          <span class="ann-date">March 10, 2026</span>
+        </div>
+        <h3>New Contact Information for the Tucson Crew</h3>
+        <p>
+          Just a heads-up that <strong>Uncle Pete and Aunt Carol</strong> have new phone
+          numbers after switching carriers. Pete&rsquo;s new number is (520) 555-0142
+          and Carol&rsquo;s is (520) 555-0198. Please update your contacts! Their email
+          addresses and address remain the same.
+        </p>
+        <p class="ann-author">&mdash; Posted by Pete</p>
+      </article>
+
+      <!-- 4 -->
+      <article class="ann-card green-border">
+        <div class="ann-meta">
+          <span class="ann-tag green">Milestone</span>
+          <span class="ann-date">February 22, 2026</span>
+        </div>
+        <h3>Congratulations, Emma &mdash; Summa Cum Laude!</h3>
+        <p>
+          We are so proud of <strong>Emma</strong> for graduating from State University
+          with a degree in Nursing, <em>summa cum laude</em>! She&rsquo;ll be starting
+          her position at Mercy Hospital in May. The whole family is cheering you on,
+          Em &mdash; you worked so hard and you deserve every bit of this success!
+        </p>
+        <p class="ann-author">&mdash; Posted by Aunt Diane</p>
+      </article>
+
+      <!-- 5 -->
+      <article class="ann-card blue-border">
+        <div class="ann-meta">
+          <span class="ann-tag blue">Recipe</span>
+          <span class="ann-date">February 5, 2026</span>
+        </div>
+        <h3>Aunt Carol&rsquo;s Famous Green Chili &mdash; Recipe Inside!</h3>
+        <p>
+          After decades of requests, Aunt Carol has finally written down her legendary
+          green chili recipe! Serves 8&ndash;10 and freezes beautifully.
+        </p>
+        <p style="margin-top:0.8rem; color:var(--brown-light); font-size:0.95rem; line-height:1.8;">
+          <strong>Ingredients:</strong> 2 lbs pork shoulder, 8 Hatch green chiles (roasted &amp; peeled),
+          1 large onion, 4 garlic cloves, 2 cups chicken broth, 1 tsp cumin,
+          salt &amp; pepper to taste.<br>
+          <strong>Method:</strong> Brown pork in batches. Saut&eacute; onion and garlic,
+          add pork, chiles, broth, and spices. Simmer low and slow for 2&ndash;3 hours
+          until pork is fall-apart tender. Serve with warm flour tortillas.
+          <em>Carol&rsquo;s tip: roast the chiles yourself for the best flavor!</em>
+        </p>
+        <p class="ann-author">&mdash; Shared by Aunt Carol</p>
+      </article>
+
+    </div>
+
+  </main>
+
+  <footer>
+    <p>Made with love for The DeMille Family &bull; 2026</p>
+  </footer>
+
+</body>
+</html>
