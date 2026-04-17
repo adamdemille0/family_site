@@ -214,15 +214,17 @@ footer {
 }
 
 .welcome-emblem {
-  width: 82px;
-  height: 82px;
-  background: linear-gradient(135deg, var(--royal), var(--navy));
-  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
   margin: 0 auto 1.35rem;
-  font-size: 2.2rem;
+}
+
+.family-logo {
+  width: 160px;
+  height: 160px;
+  object-fit: contain;
+  border-radius: 50%;
   box-shadow: 0 6px 20px rgba(0,98,184,0.30);
 }
 
